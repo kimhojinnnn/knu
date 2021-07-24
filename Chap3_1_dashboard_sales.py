@@ -20,7 +20,7 @@ from plotly.colors import DEFAULT_PLOTLY_COLORS   # chart default colors
 path = '../data/'
 
 # 데이터 호출
-df = pd.read_csv('C:/knu/data/Data.csv')
+df = pd.read_csv(path + 'Data.csv')
 
 # 이익(Margin) 생성
 df['Margin'] = df['Revenue'] - df['Cost']
