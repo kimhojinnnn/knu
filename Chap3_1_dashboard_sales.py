@@ -17,7 +17,7 @@ from plotly.colors import DEFAULT_PLOTLY_COLORS   # chart default colors
 
 ### 데이터 호출
 # Local 기준 - 상위 폴더로 이동 후 data 폴더로 이동
-path = '../data/'
+path = 'data/'
 
 # 데이터 호출
 df = pd.read_csv(path + 'Data.csv')
